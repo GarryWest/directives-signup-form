@@ -1,0 +1,16 @@
+<div>
+	<div class="opt-in">
+		<h1>Acme, Inc.</h1>
+		<div class="group">
+			<span ng-transclude></span>
+			<form name="myForm" ng-submit="submitted=true; submit()" novalidate>
+				<h3>Opt In!</h3>
+				<pre>First Name <input type="text" id="firstName" name="firstName" ng-model="Data.firstName" ng-class="{'error-class': firstNameError}" autofocus required ></pre>
+				<pre>Last Name <input type="text" name="lastName" ng-model="Data.lastName" ng-class="{'error-class': lastNameError}" required></pre>
+				<pre>Email <input type="text" name="email" ng-model="Data.email" ng-class="{'error-class': emailError}" required></pre>
+				<input type="submit" value="Give us yr infoz!" >
+			</form>
+		</div>
+		Privacy Policy: We will never ever share this info with anyone but our company, company subsidiaries, third-party affiliates, and friends of friends.
+	</div>
+</div>

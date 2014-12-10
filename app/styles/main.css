@@ -1,0 +1,47 @@
+
+
+.opt-in {
+	font-size: 2em;
+	text-align: left;
+	margin-left: 10%;
+	
+}
+
+.opt-in  p {
+ 	font-size: .1em;
+ 	width: 25%;
+}
+
+.opt-in form {
+	padding-left: 10px;
+	float: left;
+}
+
+.brand-logo {
+	background-image: url("../images/yo-llama.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	width: 200px;
+	padding-right: 20px;
+	float: left;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
